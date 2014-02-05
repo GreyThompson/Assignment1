@@ -1,0 +1,324 @@
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	background-color: #f2f2f2;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.h-bar {
+	background-color: #323232;
+}
+
+.h-logo {
+	float:left;
+	padding: 5px;
+}
+
+.main-nav {
+	display: inline-block;
+	line-height: 70px;
+	margin: 0 0 0 5px;
+}
+
+.main-nav a {
+	font-size: 20px;
+	text-decoration: none;
+/*	margin: 0 10px 0 10px;*/
+	color: white;
+	padding: 10px 15px 10px 15px;
+	border-radius: 5px;
+}
+
+.main-nav a:hover {
+	background-color: rgba(255, 255, 255, .25);
+}
+
+.h-drop {
+	display: inline-block;
+	float: right;
+	height: 35px;
+	width: 165px;
+	background-color: #3695B3;
+	margin: 12px 10px 0 0;
+	border-radius: 3px;
+}
+
+.h-drop a {
+	color: white;
+	float: left;
+	width: 100%;
+	margin: 0 0 0 0;
+	line-height: 35px;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.container {
+	width: 1000px;
+	height: 660px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	/*border: 2px solid red;*/
+}
+
+.b-cont {
+	float: left;
+	width: 660px;
+	height: 660px;
+	padding: 20px 35px 20px 20px;
+	margin: 0 0 30px 0;
+	text-align: justify;
+	border-radius: 3px;
+	background-color: #fff;
+
+	border: 1px solid gray;
+	box-shadow: 1px 1px 3px 1px #999;
+}
+
+.b-cont img {
+	/*position: inline-block;*/
+	float: left;
+	height: 250px;
+	width: 360px;
+	padding: 0 10px 40px 0;
+
+}
+
+.b-cont h1 {
+	color: #444;
+}
+
+.b-cont h4 {
+	color: #777;
+}
+
+.quote {
+	display: block;
+	clear: left;
+	margin: 18px 0 0 0;
+	color: #666;
+	text-align: center;
+	line-height: 26px;
+	/*width: 625px;*/
+}
+
+.name {
+	font-size: 14px;
+	color: #666;
+	text-align: right;
+}
+
+.sidebar {
+	float: right;
+	height: 700px;
+	width: 260px;
+	border-radius: 3px;
+	background-color: #fff;
+	padding: 0 0 0 0;
+
+	border: 1px solid gray;
+	box-shadow: 1px 1px 3px 1px #999;
+}
+
+.sidebar h4 {
+	text-align: center;
+	color: #555;
+}
+
+.sidebar img {
+	float: left;
+	height: 40px;
+	width: 40px;
+	padding: 0 0 0 20px;
+	margin: 5px 0 5px 0;
+}
+
+.sidebar p {
+	display: block;
+	line-height: 50px;
+	color: #666;
+	margin: 0 0 0 65px;
+}
+
+.f-cont {
+	clear: both;
+}
+
+.f-box {
+	width: 1000px;
+	height: 222px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+	
+}
+
+.f-copy {
+	float: left;
+}
+
+.f-social {
+	display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    float: left;
+}
+
+.f-social a {
+	background-image: url(../img/social-sprite.png);
+	text-decoration: none;
+	margin: 0 0 10px 0;
+
+}
+
+.f-social nav {
+	position: relative;
+	left: 610px;
+}
+
+.f-social nav a p {
+	position: relative;
+	margin: 0 0 0 0;
+	left: 40px;
+	width: 100px;
+	line-height: 32px;
+	color: black;
+}
+
+.f-social.facebook { background-position: 0 0; }
+.f-social.twitter  { background-position: -32px 0; }
+.f-social.linkedin { background-position: 0 -32px; }
+.f-social.google   { background-position: -32px -64px; }
+
+.legal {
+	color: #777;
+	font-size: 14px;
+}
+
+.courses-content {
+	height: 620px; width: 960px;
+	margin: 0 auto;
+	padding: 20px 20px 20px 20px;
+	border-radius: 3px;
+	background-color: #fff;
+
+	border: 1px solid gray;
+	box-shadow: 1px 1px 3px 1px #999;
+}
+
+.courses-head {
+	text-align: center;
+}
+
+.courses-head h1 {
+	margin: 0 0 20px 0;
+	font-weight: 300;
+	color: #444;
+}
+
+.courses-head h4 {
+	margin: 0 0 15px 0;
+	font-weight: 600;
+	color: #777;
+}
+
+.new-banner {
+	position: absolute;
+	top: 220px; right: 250px;
+	height: 24px;
+	width: 64px;
+	background-color: #ec0000;
+	text-align: center;
+	line-height: 24px;
+	border-radius: 3px;
+	color: white;
+	font-size: 14px;
+	text-shadow: 0 2px 3px #333;
+}
+
+#tabs {
+}
+
+#tabs nav {
+	width: 606px;
+    margin: 0 auto;
+}
+
+#tabs nav .btn {
+    display: inline-block;
+    color: #7e7e7e;
+    background: linear-gradient(#dbdbdb, #fafafa);
+    height: 40px; width: 180px;
+    line-height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin: 15px 10px 40px 10px;
+    float: left;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #b8b8b8;
+    box-shadow: 0px 1px 1px #444;
+}
+
+#tabs nav .btn.active {
+    background: linear-gradient(#7c7c89, #dbdbdb);
+    border: 1px solid #b8b8b8;
+    box-shadow: inset 0px 1px 1px #444;
+    text-shadow: 0 1px 1px #333;
+    color: white;
+}
+
+/*#tabs nav .btn:hover {
+    background-color: #ddd;
+}*/
+
+#tabs .content {
+    display: block;
+    min-height: 100px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
