@@ -44,7 +44,7 @@ html {
 	height: 35px;
 	width: 165px;
 	background-color: #3695B3;
-	margin: 12px 10px 0 0;
+	margin: 15px 10px 0 0;
 	border-radius: 3px;
 }
 
@@ -229,7 +229,7 @@ html {
 
 .new-banner {
 	position: absolute;
-	top: 220px; right: 250px;
+	top: -10px; right: -20px;
 	height: 24px;
 	width: 64px;
 	background-color: #ec0000;
@@ -250,6 +250,7 @@ html {
 }
 
 #tabs nav .btn {
+	position: relative;
     display: inline-block;
     color: #7e7e7e;
     background: linear-gradient(#dbdbdb, #fafafa);
