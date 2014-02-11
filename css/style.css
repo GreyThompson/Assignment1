@@ -62,9 +62,8 @@ html {
 .container {
 	width: 1000px;
 	height: 660px;
-	margin: 0 auto;
+	margin: 0 auto 30px auto;
 	padding: 20px 0 0 0;
-	/*border: 2px solid red;*/
 }
 
 .b-cont {
